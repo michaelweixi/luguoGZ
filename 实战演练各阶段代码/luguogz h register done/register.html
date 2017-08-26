@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="路过广州是一个专业提供广州旅游服务的线上旅行社，主要服务有：
+广州酒店预订，广州景点门票销售，广州旅游线路组团">
+<meta name="keywords" content="广州旅游，广州酒店，广州景点门票，广州机票，路过广州">
+<title>会员注册 - 路过广州</title>
+<link rel="shortcut icon" href="favicon.ico">
+
+<style type="text/css">
+
+.registerform {
+	width:760px;
+	border:1px solid #ccc;		
+	margin:0 auto;
+	background-color:#ffe;
+}
+
+.fl {
+	float:left;
+}
+
+.fr {
+	float:right;
+}
+.formhead {
+	border-bottom:2px solid #eee;
+	font-size:38px;
+	color:navy;
+	line-height:120px;
+	padding-left:10px;
+}
+
+.logo {
+	padding:5px;
+}
+.clearfix {
+	zoom:1;
+}
+
+.clearfix:after {
+	content:'.';
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+.reglabel {
+	display:inline-block;
+	width:90px;
+	vertical-align:top;
+}
+
+.form-row {
+	border-bottom:1px dotted #ccc;
+	padding:5px;
+	
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="registerform">
+
+<div class="formhead clearfix">
+	注册成为会员  <img class="logo fr" alt="logo" src="images/logo.jpg">        
+</div>
+	
+<div class="formbody">
+
+	<form action="register.php">
+      <div class="form-row">
+      	<label class="reglabel">用户名</label>
+      	<input type="text" name="username" size="50" maxlength="8" value="请输入用户名">
+      </div>
+      
+	  <div class="form-row">
+	  	<label class="reglabel">手机号</label>
+	  	<input type="text" name="telephone" size="25" maxlength="20">
+	  </div>
+	  
+	  <div class="form-row">
+	  	<label class="reglabel">Email</label>
+	  	<input type="text" name="email" size="30">
+	  </div>
+	  
+	  <div class="form-row">
+	  	<label class="reglabel">密码</label>
+	  	<input type="password" name="pwd" size="30" maxlength="10">
+	  </div>
+ 
+ 	  <div class="form-row">
+	  	<label class="reglabel">密码确认</label>
+	  	<input type="password" name="pwd-rpt" size="30" maxlength="10" value="11111" readonly="readonly" disabled="disabled">
+	  </div>
+	  
+	  
+      <div class="form-row">
+      	<label class="reglabel">性别</label>
+      	<input type="radio" name="gender" value="1">男
+	    <input type="radio" name="gender" value="0">女
+      </div>
+ 
+      <div class="form-row">
+      <label class="reglabel">爱好</label>
+      	<input type="checkbox" name="hobby" value="音乐" checked="checked">音乐
+		<input type="checkbox" name="hobby" value="围棋">围棋
+		<input type="checkbox" name="hobby" value="旅游">旅游
+		<input type="checkbox" name="hobby" value="交友">交友	
+		<input type="checkbox" name="hobby" value="游戏" checked ="checked">游戏	
+		<input type="checkbox" name="hobby" value="足球" checked ="checked">足球		
+	  </div>
+ 
+      <div class="form-row">
+		<label class="reglabel">小故事</label>
+		<textarea rows="10" cols="80" name="content">分享您旅游的小故事，让其他驴友认识您</textarea>
+      </div>
+
+	  <div class="form-row">
+	  	<label class="reglabel">城市</label>
+	  	<select name="city">
+			<option>---请选择您所在的城市---</option>
+			<option value="北京">北京</option>
+			<option value="上海">上海</option>
+			<option value="广州">广州</option>
+			<option value="深圳">深圳</option>
+		</select>
+	  </div>
+
+	  <div class="form-row">
+	  		<label class="reglabel">请上传头像</label>
+	  		<input type="file" name="filename"> 
+	  </div>
+
+	  <input type="hidden" name="tokenid">
+	  <input type="submit" value="提交">
+	
+	</form>
+	
+	</div>
+</div>
+
+
+</body>
+</html>

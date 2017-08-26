@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>float demo</title>
+
+<style type="text/css">
+
+.box1,.box2,.box3,.box4 {
+	width:230px;
+	height:200px;
+	border:1px solid #ccc;
+	color:white;
+	font-size:28px;
+	text-align:center;
+	line-height:200px;
+}
+
+.box1 {
+	background-color:red;
+	float:left;
+}
+
+.box2 {
+	background-color:green;
+	float:left;
+}
+
+.box3 {
+	background-color:blue;	
+	float:left;
+}
+
+.box4 {
+	background-color:orange;	
+	float:left;
+}
+
+.box5 {
+	width:100%;
+	height:300px;
+	border:1px solid #ccc;
+	color:white;
+	font-size:28px;
+	text-align:center;
+	line-height:300px;
+	background-color:#ccc;
+
+}
+
+
+.bigbox {
+	background-color:#999;
+	border:3px solid gold;
+	padding:25px;
+	width:1000px;
+}
+
+.inline1 {
+	background-color:#cfe;
+	width:100px;
+	height:100px;
+	float:left;
+}
+
+.clearfix {
+	zoom:1;
+}
+
+.clearfix:after {
+	content:'.';
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+
+</style>
+
+</head>
+<body>
+<div class="bigbox clearfix">
+<div class="box1">盒子一</div>
+<div class="box2">盒子二</div>
+<div class="box3">盒子三</div>
+<div class="box4">盒子四</div>
+</div>
+
+<div class="box5">盒子五</div>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+@CHARSET "UTF-8";
+
+/***** 头部 开始 ****/
+.header .logo{
+	width:120px;
+	height:120px;
+	padding:3px 0;
+}
+
+.header .header-main{
+	width:1080px;
+	height:126px;
+}
+
+.header-main li{
+	float:left;
+	margin-left:30px;
+}
+
+.header-main .club {
+	color:red;
+}
+
+.header-main .searchbox {
+	margin-left:70px;
+}
+/***** 头部 结束 ****/
+
+
+/***** 导航栏 开始 ****/
+.navbar {
+	background-color:#26ba4b;
+	height:37px;
+}
+
+.navbar li{float:left;}
+
+.navbar ul {
+	padding-top:7px;
+}
+
+.navbar a:link {
+	display:block;
+	width:105px;
+	height:30px;
+   color: #FFFFFF;
+   font-size:16px;
+   text-decoration: none;
+   text-align:center;
+}
+.navbar a:visited {
+    color: #FFFFFF;
+    text-decoration: none;  
+}
+.navbar a:hover{
+	border-bottom:solid 6px orange;
+}
+.navbar a:active{
+	color: #FFFF00;
+}
+
+
+/***** 导航栏 结束 ****/
+
+
+/***** 内容区 开始 ****/
+/***** 内容区 结束 ****/
+
+
+/***** 底部 开始 ****/
+.footer {
+	background-color:#363636;
+	padding:10px;
+}
+/***** 底部 结束 ****/

@@ -1,0 +1,147 @@
+/*
+YUI 3.18.1 (build f7e7bcb)
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+
+html {
+	color: #000;
+	background: #FFF
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+	margin: 0;
+	padding: 0
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+fieldset,img {
+	border: 0
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style: normal;
+	font-weight: normal
+}
+
+ol,ul {
+	list-style: none
+}
+
+caption,th {
+	text-align: left
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+	font-weight: normal
+}
+
+q:before,q:after {
+	content: ''
+}
+
+abbr,acronym {
+	border: 0;
+	font-variant: normal
+}
+
+sup {
+	vertical-align: text-top
+}
+
+sub {
+	vertical-align: text-bottom
+}
+
+input,textarea,select {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	*font-size: 100%
+}
+
+legend {
+	color: #000
+}
+
+#yui3-css-stamp.cssreset {
+	display: none
+}
+
+/* luguo public css */
+
+.container {
+	width:1200px;
+	margin:0px auto;
+}
+
+.floatleft{float:left;}
+.floatright{float:right;}
+.clearfix {zoom:1;}
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.blank{height:0px;clear:both;}
+
+body{
+	font-size:14px;
+	font-family:"Hiragino Sans GB",Tahoma,arial,宋体,sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color:#2d5abf;
+}
+
+.mb_10 {
+  margin-bottom: 10px;
+}
+
+.ms_yahei {
+    font-family: "Microsoft YaHei", 黑体;
+}
+
+.luguo_tag {
+	display:inline-block;
+    color: #fff;
+    background-color: #f60;
+    text-align: center; 
+    font-size: 12px;
+    padding:4px;
+    border-radius: 4px;
+    font-family: "Microsoft YaHei", 黑体;
+}
+
+.icon-wifi, .icon-restaurant, .icon-parking, .icon-pickup, .icon-change-wash, .icon-pet, .icon-swimming-pool, .icon-gym, .icon-conference-room, .icon-spa, .icon-bus, .icon-allDay-of-hot-water {
+    background-image: url(../images/hotel-facility.png);
+    background-repeat: no-repeat;
+}
+
+.icon-spa{background-position:-72px 0;height:24px;width:24px}
+.icon-gym{background-position:-96px 0;height:24px;width:24px}
+.icon-wifi{background-position:-168px 0;height:24px;width:24px}
+.icon-parking{background-position:-192px 0;height:24px;width:24px}
+.icon-pickup{background-position:-240px 0;height:24px;width:24px}
+.icon-change-wash{background-position:-312px 0;height:24px;width:24px}
+.icon-swimming-pool{background-position:-336px 0;height:24px;width:24px}
+.icon-pet{background-position:-384px 0;height:24px;width:24px}
+.icon-bus{background-position:-408px 0;height:24px;width:24px}
+.icon-restaurant{background-position:-432px 0;height:24px;width:24px}
+.icon-allDay-of-hot-water{background-position:-504px 0;height:24px;width:24px}
+.icon-conference-room{background-position:-552px 0;height:24px;width:24px}
+
+
+
+
+
+
+
+
+
+
+
+

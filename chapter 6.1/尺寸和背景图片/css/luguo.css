@@ -1,0 +1,105 @@
+@CHARSET "UTF-8";
+
+ul.navbar {
+	list-style-type:none;	
+}
+
+.navbar li {
+	display:inline;
+}
+
+a:link {
+	color:black;
+}
+
+a:visited {
+	color:blue;
+}
+a:hover {
+	color: orange;
+	/* font-size:22px; */
+}
+
+a:active {
+	color:green;
+}
+
+/* changlong.html start */
+.orangecolor {
+	color:orange;
+}
+
+.pricetable .delprice {
+	text-decoration:line-through;
+	color:#666666;
+}
+
+h2.delprice {
+	color:#888888;
+}
+
+.center {
+	text-align:center;
+}
+
+.f60 {
+	color:#f60;
+}
+
+.pricenum {
+	font-size:22px;
+}
+
+.center.f60.pricenum {
+	font-family:"Microsoft Yahei";
+}
+
+#pricelabel {
+	color:red;
+}
+
+#minprice {
+	font-size:26px;
+}
+
+#featured p {
+	color:green;
+}
+
+[title] {
+	color:red;
+}
+
+#workinghour {
+	border:1px solid red;
+	padding:0px;
+	margin:0px;
+}
+
+#workinghour {
+	width:15em;
+
+	text-indent:1ex;
+	font-size:16px;
+	background-color:pink;
+	background-image:url('../tourspots/images/bg-water.jpg');
+}
+
+/* 
+body {
+	background-image:url('../tourspots/images/bg-water.jpg');
+	background-repeat:repeat-x; 
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+/* changlong.html end */

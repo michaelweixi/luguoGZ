@@ -1,0 +1,1047 @@
+@CHARSET "UTF-8";
+
+/***** 头部 开始 ****/
+.header .logo{
+	width:120px;
+	height:120px;
+	padding:3px 0;
+}
+
+.header .header-main{
+	width:1080px;
+	height:126px;
+}
+
+.header-main li{
+	float:left;
+	margin-left:30px;
+}
+
+.header-main .club {
+	color:red;
+}
+
+.header-main .searchbox {
+	margin-left:70px;
+}
+/***** 头部 结束 ****/
+
+
+/***** 导航栏 开始 ****/
+.navbar {
+	background-color:#26ba4b;
+	height:37px;
+}
+
+.navbar li{float:left;}
+
+.navbar ul {
+	padding-top:7px;
+}
+
+.navbar a:link {
+	display:block;
+	width:105px;
+	height:30px;
+   color: #FFFFFF;
+   font-size:16px;
+   text-decoration: none;
+   text-align:center;
+}
+.navbar a:visited {
+    color: #FFFFFF;
+    text-decoration: none;  
+}
+.navbar a:hover{
+	border-bottom:solid 6px orange;
+}
+.navbar a:active{
+	color: #FFFF00;
+}
+
+/***** 导航栏 结束 ****/
+
+
+/***** 内容区 开始 ****/
+.mainpage-left {
+	width:880px;
+	padding-right:5px;
+	margin-right:10px;
+	/*border-right:1px solid #999;*/
+}
+
+
+/*当季精选*/
+.the_season {
+	border:1px solid #bbb;
+	overflow:hidden;
+}
+
+.pro_smallpic {
+	width:193px;
+	margin:4px 0px 0 4px;
+}
+
+.pro_sp_text{
+	font-size:16px;
+	color:#f60;
+	text-align:center;
+	margin-bottom:20px;
+}
+
+
+.pro_bigpic {
+	width:480px;
+	height:350px;
+	background: url('../images/linglanyinxiang.png') no-repeat;
+	background-size: 100% 100%;
+}
+
+.transbox{
+	height: 80px;
+	margin-top:270px;
+	background-color: #fff;
+	opacity:0.75;
+}
+
+.pro_title {
+	font-size:20px;
+	color:#f60;
+	font-weight:600;
+	margin-left:8px;
+}
+
+.pro_text {
+	font-size:36px;
+	color:red;
+	margin:8px 0 0 8px;
+}
+
+
+/*酒店预订-标题*/
+
+.hotel_booking_title {
+    height: 35px;
+    border-bottom: 1px solid #acaea4;
+    position: relative;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #222;
+}
+
+.hotel_booking_title h2{
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.hotel_booking_title .more {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 13px;
+    line-height: 32px;
+    color: #999;
+}
+
+/*酒店列表*/
+
+.hotel {
+    border: 1px solid #e6e6e6;
+    color: #666;
+}
+
+/*酒店logo*/
+.hotel-logo {
+	display:block;
+    width: 245px;
+    height: 163px;
+    margin: 0 7px 0 0;
+}
+
+/*酒店文字信息*/
+.hotel-info {
+    position: relative;
+    width: 440px;
+}
+
+.hotel-info .hotelname{
+    font-size: 24px;
+    line-height: 42px;
+}
+
+.hotel-info .level {
+    display: inline-block;
+    color: #aaa;
+    margin-right: 7px;
+    font-size:13px;
+}
+
+.hotel-info .route {
+    margin: 8px 0;
+}
+
+.hotel-info .facilities {
+    margin: 0px;
+}
+
+.hotel-info .icon {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+
+/*酒店价格信息*/
+.hotel-brief {
+    width: 160px;
+    text-align: center;
+    border-left:1px solid #eee;
+    margin-top: 15px;
+}
+
+.hotel-brief .startPrice .yen {
+    font-size: 14px;
+}
+.hotel-brief .startPrice .digit {
+    font-size: 28px;
+    margin: 0 4px;
+    font-weight: bold;
+}
+.hotel-brief .startPrice .text {
+    font-size: 13p;
+}
+
+.hotel-brief .hotelDetail a {
+    display: inline-block;
+    width: 94px;
+    background: #70bf41;
+    padding: 3px;
+    margin: 5px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 2px;
+}
+
+
+
+
+/***** 内容区 右边区块 ****/
+.mainpage-right {
+	width:300px;
+}
+
+/*限时特卖*/
+
+.hotsale{
+    overflow: hidden;  
+    border: 1px solid #f60;
+    padding: 10px 8px;
+    background: #fff3ed;
+}
+
+.hotsale .title{
+	line-height:30px;
+	font-size:24px;
+	font-weight:600;
+	color:red;
+}
+
+.hotsale .content{
+	padding:4px;
+	border-top:1px dotted #000;
+}
+
+.hotsale .content h4{
+	height:24px;
+	color:red;
+	line-height:34px;
+	font-size:14px;
+	font-weight:600;
+}
+
+.hotsale .content li{
+    color: red;
+	height:24px;
+	line-height:24px;
+	border-bottom:1px dashed #ccc;
+}
+
+/* 路过画报 */
+.mag-title {
+    position: relative;
+}
+.mag-title h3{
+    line-height: 30px;
+    height: 30px;
+    font-size:18px;
+    font-weight:600;
+    border-bottom: 1px solid #e4e4e4;
+    color:#f80;
+}
+
+.mag-title .more {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 13px;
+    line-height: 30px;
+    color: #999;
+}
+
+.mag-pic{
+    display: block;
+    width: 88px;
+    height: 78px;
+    border: 1px solid #d5eaff;
+    padding: 1px;
+}
+
+.mag-artical {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 2px;
+    margin-bottom: 4px;
+}
+
+.outbound-w300 {
+    width: 300px;
+}
+
+/***** 内容区 结束 ****/
+
+/*景点门票 之 标题*/
+
+.mp_spotlist_title {
+    height: 35px;
+    border-bottom: 1px solid #acaea4;
+    position: relative;
+    margin-bottom: 8px;
+    margin-top: 15px;
+    color: #222;
+}
+
+.mp_spotlist_title h2{
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.mp_spotlist_title .more {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 13px;
+    line-height: 32px;
+    color: #999;
+}
+
+/*景点门票 之 左边分类*/
+
+.mp_spotlist_left{
+	width:125px;
+	height:385px;
+	position:relative;
+}
+
+.goodtimes {
+	position:absolute;
+	top:266px;
+	left:0px;
+}
+
+/*景点门票 之 右边列表*/
+
+.mp_spotlist_right {
+    padding-top: 3px;
+    padding-left: 3px;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-list-item {
+	border:1px solid #f60;
+    margin-left: 12px;
+    padding: 0px;
+    width: 200px;
+    height: 180px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.imgblock {
+    position: relative;
+    height: 120px;
+    width: 200px;
+    margin-bottom: 3px;
+}
+
+.imgblock img {
+    height: 120px;
+    width: 200px;
+}
+
+.prod_name_bg {
+    width: 200px;
+    height: 24px;
+    background: #000;
+    opacity: 0.4;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.prod_name {
+    width: 150px;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    padding-left: 8px;
+    color: #fff;
+}
+
+.price_box {
+    height: 24px;
+    line-height: 24px;
+    margin: 0 4px 2px 4px;
+    font-size: 12px;
+    color: #999;
+}
+
+.price_box .num {
+    font-size: 30px;
+    font-weight: bold;
+    color: #f60;
+}
+
+.price_box .darktext {
+    color: #222;
+}
+.price_box .price_normal{
+    color:#000;
+    font-size: 14px;
+}
+
+.price_box .unit {
+    color: #f60;
+}
+
+/***** 底部 开始 ****/
+.footer {
+	background-color:#363636;
+	padding:10px;
+}
+
+.padding20 {
+	padding:20px;
+}
+
+.footer-logos{
+	width:600px;
+	border-left:2px solid #fefefe;	
+}
+
+.footer h5 {
+	color: #fff;
+    font-style: normal;
+    font-size:15px;
+    padding-left:10px;
+    border-left:3px solid #fff;
+    margin-bottom:10px;
+}
+
+.footer a {
+    color: #aebdc1;
+}
+
+.footer p {
+    color: #fff;
+    font-style: normal;
+}
+
+.footer-logos sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+.footer_icon {
+    margin-left:20px;
+    position:relative;
+	top:4px;
+}
+
+/***** 底部 结束 ****/
+
+
+
+/*******************************/
+/*							   */
+/*        长隆欢乐世界页面        */
+/*							   */
+/*******************************/
+
+
+
+/***** content left start *****/
+
+.content-left {
+	width:202px;
+}
+
+.content-right {
+	margin-left:15px;
+}
+
+/*景点分类*/
+
+.spots-cate-box{
+    border: 1px solid #008080;
+}
+
+.spots-cate-box h4{	
+    background-color:#008080;
+    line-height: 25px;
+    color: #fff;
+    text-indent:8px;
+}
+
+.cate-table {	
+	margin:8px 5px 0 5px;
+}
+
+.cate-table td{
+	padding-bottom:8px;
+}
+
+/*热销景点*/
+
+.spots-box {
+    border: 1px solid #f60;
+}
+
+.spots-box h4 {
+    background-color:#f60;
+    line-height: 25px;
+    color: #fff;
+    text-indent:8px;
+    font-family: "Microsoft YaHei", 黑体;
+}
+
+.numberone {
+    padding: 4px;
+}
+
+.numberone img {
+    width: 90px;
+    float: left;
+}
+
+.numberone .numberone-item {
+    width: 90px;
+    margin-left:5px;
+}
+
+.hotsale-list li {
+	padding: 4px;
+}
+
+/*附近酒店*/
+
+.hotels-around {
+    border: 1px solid #3fba33;
+}
+
+.hotels-around h4 {
+    background-color:#3fba33;
+    line-height: 25px;
+    color: #fff;
+    text-indent:8px;
+    font-family: "Microsoft YaHei", 黑体;
+}
+
+.hotels-around li {
+	padding: 4px;
+}
+
+/*最近浏览过的产品*/
+
+.recent-box {
+    border: 1px solid #aaa;
+}
+
+.recent-box h4 {
+    background-color:#aaa;
+    line-height: 25px;
+    color: #fff;
+    text-indent:8px;
+    font-family: "Microsoft YaHei", 黑体;
+}
+
+
+
+.recent-box ul li {
+    border-bottom: 1px dotted #aaa;
+    padding: 5px 3px;
+}
+
+/***** content left end *****/
+
+
+
+/***** content right start *****/
+
+/*景点摘要*/
+.spot_brief{
+	border-bottom:1px solid #aaa;
+}
+
+.spot_brief_title{
+	width:630px;
+}
+
+
+.spot_brief_title h1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.spot_brief_title .luguo_tag{
+	position:relative;
+	top:15px;
+	left:20px;
+	margin-left:30px;
+}
+
+.spot_brief_title .brief_addr{
+	font-size:12px;
+}
+.spot_brief_price  {
+	margin:15px 15px 8px 15px;
+	padding:0px 20px;
+	border-left:2px dotted #aaaaaa;
+	border-right:2px dotted #aaaaaa;
+}
+
+.spot_brief_price .num_price {
+    color: #f60;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Microsoft YaHei", 黑体;
+}
+
+.spot_brief .booking {
+    display: block;
+    width: 95px;
+    height: 45px;
+    background: url(../images/luguo_icons.png) no-repeat;
+    background-position: 0 -52px;
+    margin-top: 25px;
+}
+
+.spot_brief .favorite{
+    margin: 48px 0 0 15px;
+}
+
+/*图片区*/
+
+
+.hugeimg {
+	display:block;
+	width: 730px;
+}
+
+.thumbnail {
+	display:block;
+	float:left;
+	height:56px;
+	width:87px;	
+	margin:4px 4px 0 0;
+	overflow:hidden;
+}
+ 
+ /*图片旁最新评论*/
+ 
+.bigimg-comment{
+	width:230px;
+	padding:8px;
+}
+
+
+.bigimg-comment .ranking {
+    color: #f60;
+    font-size: 32px;
+    font-weight:700;
+}
+
+.bigimg-comment .rct-cmt-box {
+    border: 1px solid #f5e4c3;
+    padding: 10px;
+    height: 200px;
+    background-color: #fdfbee;
+    margin-top:50px;
+    font-size:13px;
+}
+  
+.bigimg-comment .guest-cmt {
+    height: 180px;
+    overflow: hidden;
+}
+
+.bigimg-comment .cmt-date {
+	text-align:right;
+}
+
+.rct-cmt-box .arrow {
+    height: 8px;
+    width: 15px;
+    position: relative;
+    bottom: -10px;
+    left: 10px;
+    background: url(../images/tp_arrw.png) no-repeat 0 0;
+}
+  
+
+.bigimg-comment .person {
+    height: 27px;
+    margin: 12px 0 0 18px;
+}
+
+.bigimg-comment .per_icon {  
+    display: inline-block;
+    height: 19px;
+    width: 19px;
+    padding: 10px 0 0 10px;
+    background: url(../images/luguo_icons.png) no-repeat;
+    background-position: -48px -5px;
+}
+
+/*价格表*/
+
+.spots-price-title{
+	font-size:24px;
+	margin-bottom:4px;	
+	
+}
+
+.spots-price-table{
+	width:100%;
+ 	border:1px solid #aaa;
+ 	margin:0px 0px 10px 0;
+}
+
+.spots-price-table tr{
+	height:40px;
+}
+.spots-price-table th{
+	border-bottom:1px dotted #aaa;
+	text-align:left;
+	padding:3px 17px 2px 7px;
+	font-size:12px;
+	background-color:#fdfbec;
+}
+
+.spots-price-table td{
+	border-bottom:1px dotted #aaa;
+	text-align:left;
+	padding:3px 17px 2px 7px;
+}
+
+.spots-price-table .offical-price {
+	text-decoration: line-through;
+	color:gray;
+}
+
+.spots-price-table .luguo-price {
+	color: #f60;
+	font-size:26px;
+    font-weight: 600;
+    font-family: "Microsoft YaHei", 黑体;
+}
+
+/*******产品经理推荐*******/
+
+.luguo_recomment {
+    background-color: #efefef;   
+    margin: 10px 0;
+    padding:8px 0px;
+}
+
+.recomment {
+	height:32px;
+	border-bottom: 1px solid #b8b8b8; 
+	margin: 0px 4px;
+}
+	 
+.recomment .luguo_manager {
+    font-size:18px;
+    font-family: "Hiragino Sans GB",Tahoma,arial,宋体,sans-serif;
+    color: #404040;
+    text-align: left;
+    font-weight: 600;
+}
+
+.recomment .best_time {   
+    padding: 6px 0 0 8px;
+    color: #333;
+    font-size: 13px;    
+}
+.recomment .clock_time {  
+	display: inline-block;
+    height: 19px;
+    width: 19px;
+    padding: 10px 0 0 10px;
+	background: url(../images/luguo_icons.png) no-repeat;
+    background-position: 0px -5px;
+}
+ 
+.recomment em {
+	font-style: normal;
+    font-weight: 600;
+    color: #4e9701;
+}
+
+.luguo_recomment .yellow_bg {
+	display: inline-block;
+    background-color: #f60;
+    line-height: 12px;
+    color: #fff;
+    font-size:12px;
+    padding: 4px;
+    margin: 8px 10px 0px 4px;
+}
+
+/******产品介绍*******/
+
+.spots-intro-title{
+	font-size:24px;
+	margin-bottom:4px;	
+	border-bottom:1px solid #bbb;
+	margin-bottom:8px;	
+	padding-bottom:2px;
+}
+
+.spot_intro .briefintro{
+	text-indent:2em;
+}
+
+.featured li{
+	border:1px dotted green;
+	margin:8px 0;
+	padding:8px;
+}
+
+.featured img{
+	display:block;
+	width:960px;
+	margin-bottom:10px;
+}
+.featured h3{
+	color:#f60;
+	font-size:22px;
+	font-weight:600;
+	padding:0 8px 0 0;
+}
+
+
+
+/******预订须知*******/
+
+.spot_notice_title{
+	color:#fff;
+	font-size:24px;
+	margin-bottom:8px;	
+	padding:2px 4px;
+	background-color:#f60;
+}
+
+
+.detail_infor dl {
+    padding: 10px 0;
+    border-bottom: 1px dotted #d8d8d8;
+}
+
+.detail_infor dt {
+    float: left;
+    width: 115px;
+    font-weight: 800;
+    border-top:1px dotted #999;
+    padding-top:4px;
+    margin-top:4px;
+}
+
+.detail_infor dd {
+    margin-left: 120px;
+    border-top:1px dotted #999;
+    padding-top:4px;
+    margin-top:4px;
+}
+
+
+
+
+/******会员评价*******/
+/****汇总****/
+.rating_box h2{	
+	font-size:24px;
+	color:#fff;
+	margin-bottom:8px;	
+	padding:2px 4px;
+	background-color:#2e9900;
+}
+
+.rating_summary {
+    padding: 10px 10px;
+    border-bottom: 1px dotted #aaa;
+}
+
+.rating_summary li{
+    float: left;    
+    padding-right: 10px;
+}
+
+
+.rating_summary .current {
+    color: #fff;
+    background: #2e9900;
+    padding:8px 4px;
+}
+
+.rating_summary .current em {
+	font-style: normal;
+    color: #fffd1b;
+    margin-right:8px;
+}
+
+.rating_summary li em {
+    color: #f60;
+    margin-right:8px;
+}
+
+
+/****list****/
+
+.rating_list li {
+    background: #fafff7;
+    position: relative;
+    padding: 10px 0 15px;
+    border-bottom: 1px dotted #aaa;
+    overflow: visible;
+	min-height:100px;
+}
+
+.member_pic{
+	padding:8px 15px 4px 20px;	
+    	min-width:80px;
+}
+
+ .icon_essence{
+	position: absolute;
+    top: -3px;
+    left: 0;
+}
+
+ .rating_content{
+	margin:0 20px 20px 0;
+}
+
+.rating_from{
+	color:#4e9701;
+	font-style:italic;
+}
+
+/*****分页****/
+.pagination {
+    height: 40px;
+    margin: 15px auto;
+}
+
+.page-bottom {
+    float: right;
+    margin:8px;
+    height:28px;
+}
+
+.page-bottom a {
+    border: 1px solid #c7e7ab;
+    height: 28px;
+    padding: 10px 10px;
+}
+
+.page-cur {
+    background-color: #c7e7ab;
+}
+
+
+/*******************************/
+/*							   */
+/*        路过广州-注册页面       */
+/*							   */
+/*******************************/
+
+
+.registerform {
+	width:760px;
+	border:1px solid #ccc;		
+	margin:10px auto;
+	background-color:#ffe;
+}
+
+.formhead {
+	border-bottom:2px solid #eee;
+	font-size:38px;
+	color:navy;
+	line-height:120px;
+	padding-left:10px;
+}
+
+.reglogo {
+	padding:5px;
+}
+
+.reglabel {
+	display:inline-block;
+	width:90px;
+	vertical-align:top;
+}
+
+.form-row {
+	border-bottom:1px dotted #ccc;
+	padding:5px;
+}
+
+/*
+input[type="text"] {
+	border: 1px solid green;
+	background-color: #eeffee;
+	font-size:20px;
+}
+*/
+input[type="submit"] {
+	width:120px;
+	font-size:18px;
+	border:1px solid red;
+	background-color:#ffeeff;
+	line-height:20px;
+}
+
+input[type="checkbox"] {
+	display:inline-block;
+	margin:2px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	

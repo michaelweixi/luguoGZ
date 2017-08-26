@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>table demo</title>
+<style type="text/css">
+table {
+	border-collapse:separate;
+	border-spacing:10px 30px;
+	empty-cells:show;
+	caption-side:top;
+}
+
+table.one
+{
+table-layout: automatic
+}
+table.two
+{
+table-layout: fixed
+}
+
+
+</style>
+</head>
+<body>
+
+<table class="one" border="1" width="100%">
+<tr>
+<td width="20%">1000000000000000000000000000</td>
+<td width="40%">10000000</td>
+<td width="40%">100</td>
+</tr>
+</table>
+
+<br>
+
+<table class="two" border="1" width="100%">
+<tr>
+<td width="20%">1000000000000000000000000000</td>
+<td width="40%">10000000</td>
+<td width="40%">100</td>
+</tr>
+</table>
+
+
+
+
+
+<table border="1">
+	<caption>长隆价格表</caption>
+	<tr>
+		<th>门票名称</th>
+		<th>官网价格</th>
+		<th>门票价格</th>			
+	</tr>
+	<tr>
+		<td><a href="#">成人票</a></td>
+		<td>¥250</td>
+		<td></td>			
+	</tr>
+	<tr>
+		<td><a href="#">儿童长者门票（1-1.5米儿童或65岁以上长者）</a></td>
+		<td>¥175</td>
+		<td>¥170</td>			
+	</tr>
+	<tr>
+		<td><a href="#">情侣双人门票（限一男一女同时入园）</a></td>
+		<td>¥500</td>
+		<td>¥390</td> 			
+	</tr>
+
+	<tr>
+		<td><a href="#">欢乐世界+国际大马戏联票（19:30开场）</a></td>
+		<td>¥495</td>
+		<td>¥450</td>			
+	</tr>
+
+	<tr>
+		<td><a href="#">欢乐世界+国际大马戏儿童长者联票（19:30开场）</a></td>
+		<td>¥350</td>
+		<td>¥345</td>			
+	</tr>
+</table>
+	
+</body>
+</html>

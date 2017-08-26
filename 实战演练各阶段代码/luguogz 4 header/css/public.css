@@ -1,0 +1,117 @@
+/*
+YUI 3.18.1 (build f7e7bcb)
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+
+html {
+	color: #000;
+	background: #FFF
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+	margin: 0;
+	padding: 0
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+fieldset,img {
+	border: 0
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style: normal;
+	font-weight: normal
+}
+
+ol,ul {
+	list-style: none
+}
+
+caption,th {
+	text-align: left
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+	font-weight: normal
+}
+
+q:before,q:after {
+	content: ''
+}
+
+abbr,acronym {
+	border: 0;
+	font-variant: normal
+}
+
+sup {
+	vertical-align: text-top
+}
+
+sub {
+	vertical-align: text-bottom
+}
+
+input,textarea,select {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	*font-size: 100%
+}
+
+legend {
+	color: #000
+}
+
+#yui3-css-stamp.cssreset {
+	display: none
+}
+
+/* luguo public css */
+
+.container {
+	width:1200px;
+	margin:0px auto;
+}
+
+.floatleft{float:left;}
+.floatright{float:right;}
+.clearfix {zoom:1;}
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.blank{height:0px;clear:both;}
+
+body{
+	font-size:14px;
+	font-family:"Hiragino Sans GB",Tahoma,arial,宋体,sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color:#2d5abf;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

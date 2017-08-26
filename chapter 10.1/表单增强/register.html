@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="路过广州是一个专业提供广州旅游服务的线上旅行社，主要服务有：
+广州酒店预订，广州景点门票销售，广州旅游线路组团">
+<meta name="keywords" content="广州旅游，广州酒店，广州景点门票，广州机票，路过广州">
+<title>会员注册 - 路过广州</title>
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/public.css">
+<link rel="stylesheet" type="text/css" href="css/luguo.css?2">
+</head>
+<body>
+
+<div class="registerform">
+	<div class="formhead clearfix">
+		注册成为会员  <img class="reglogo floatright" alt="logo" src="images/logo.jpg">        
+	</div>
+		
+	<div class="formbody">
+		<form action="reg.php" method="post" target="_blank">
+			<div class="form-row">
+				<label class="reglabel">用户名</label>
+				<input type="text" name="username" size="50" maxlength="80" value="请输入用户名">							
+			</div>
+			
+			<div class="form-row">
+				<label class="reglabel">手机号</label>
+				<input type="text" name="telephone" size="25" maxlength="20">							
+			</div>
+			
+			<div class="form-row">
+				<label class="reglabel">Email</label>
+				<input type="text" name="email" size="30">
+			</div>			
+
+			<div class="form-row">
+				<label class="reglabel">密码</label>
+				<input type="password" name="pwd" size="30" maxlength="10">
+			</div>
+
+			<div class="form-row">
+				<label class="reglabel">密码确认</label>
+				<input type="password" name="pwd-rpt" size="30" maxlength="10" value="11111">
+			</div>	
+
+			<div class="form-row">
+				<label class="reglabel">性别</label>
+				<input type="radio" name="gender" value="1">男
+				<input type="radio" name="gender" value="0">女
+			</div>
+			
+			<div class="form-row">
+				<label class="reglabel">爱好</label>
+				<input type="checkbox" name="hobby1" value="音乐" checked="checked">音乐
+				<input type="checkbox" name="hobby2" value="围棋">围棋
+				<input type="checkbox" name="hobby3" value="旅游">旅游
+				<input type="checkbox" name="hobby4" value="交友">交友	
+				<input type="checkbox" name="hobby5" value="游戏" checked ="checked">游戏	
+				<input type="checkbox" name="hobby6" value="足球" checked ="checked">足球		
+			 </div>	
+			 
+			<div class="form-row">
+				<label class="reglabel">小故事</label>
+				<textarea rows="10" cols="70" name="content">分享您旅游的小故事，让其他驴友认识您</textarea>
+			</div>			 
+			 
+			 <div class="form-row">
+				<label class="reglabel">城市</label>
+				<select name="city">
+					<option>---请选择您所在的城市---</option>
+					<option value="北京">北京</option>
+					<option value="上海">上海</option>
+					<option value="广州" selected>广州</option>
+					<option value="深圳">深圳</option>
+				</select>
+			 </div>
+			 		
+			<div class="form-row">
+				<label class="reglabel">请上传头像</label>
+				<input type="file" name="facepic"> 
+			</div>
+
+<!-- HTML5 增强表单 -->
+<div class="form-row">
+	<label class="reglabel">地址</label>
+	<input type="text" name="addr" placeholder="请输入收货地址"  required="required" autofocus="autofocus">
+</div>
+
+<div class="form-row">
+	<label class="reglabel">邮箱</label>
+	<input type="email" name="newemail">
+</div>
+
+<div class="form-row">
+	<label class="reglabel">网址</label>
+	<input type="url" name="website" >
+</div>
+
+<div class="form-row">
+	<label class="reglabel">日期</label>
+	<input type="date" name="datename">
+</div>
+
+<div class="form-row">
+	<label class="reglabel">周</label>
+	<input type="week" name="theweek">
+</div>
+
+<div class="form-row">
+	<label class="reglabel">订购数量</label>
+	<input type="number" name="qty">个
+</div>
+
+<div class="form-row">
+	<label class="reglabel">颜色</label>
+	<input type="color" name="choosecolor">
+</div>
+			
+<div class="form-row">
+	<label class="reglabel">范围调节</label>
+	<input type="range" name="rangeadjust">
+</div>
+			
+<div class="form-row">
+	<label class="reglabel">搜索</label>
+	<input type="search" name="searchtext" >
+</div>
+
+			<input type="hidden" name="tokenid" value="123">
+			
+			<input type="submit" name="b1" value="提交"> 
+			<!-- 
+			<input type="reset" name="b2" value="取消">
+			<input type="button" name="b3" value="从图片库选择" onClick="#">			
+			 -->
+		
+		</form>
+	</div>
+</div>
+<br><br><br>
+</body>
+</html>

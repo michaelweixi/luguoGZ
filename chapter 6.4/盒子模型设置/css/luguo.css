@@ -1,0 +1,93 @@
+@CHARSET "UTF-8";
+
+ul.navbar {
+	list-style-type:none;
+}
+
+.navbar li {
+	display:inline;
+}
+
+a:link {
+	color:black;
+}
+
+a:visited {
+	color:blue;
+}
+a:hover {
+	color: orange;
+	/* font-size:22px; */
+}
+
+a:active {
+	color:green;
+}
+
+/* changlong.html start */
+
+.orangecolor {
+	color:orange;
+}
+
+.e1,.e2,.e3 {
+	margin:0px;
+}
+
+.e1 {
+	color:red;
+	border:1px solid red;
+}
+
+.e2 {
+	color:orange;
+	border:1px solid orange;
+}
+
+.e3 {
+	color:blue;
+	border:1px solid blue;
+}
+
+.pricetable .delprice {
+	text-decoration:line-through;
+	color:#666666;
+}
+
+h2.delprice {
+	color:#888888;
+}
+
+.center {
+	text-align:center;
+}
+
+.f60 {
+	color:#f60;
+}
+
+.pricenum {
+	font-size:22px;
+}
+
+.center.f60.pricenum {
+	font-family:"Microsoft Yahei";
+}
+
+#pricelabel {
+	color:red;
+}
+
+#minprice {
+	font-size:26px;
+}
+
+#featured p {
+	color:green;
+}
+
+[title] {
+	color:red;
+}
+
+/* changlong.html end */

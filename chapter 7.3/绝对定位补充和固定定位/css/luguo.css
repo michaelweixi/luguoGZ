@@ -1,0 +1,156 @@
+@CHARSET "UTF-8";
+
+ul.navbar {
+	list-style-type:none;
+	padding-left:0;
+}
+
+.navbar li {
+	display:inline;
+}
+
+a:link {
+	color:black;
+}
+
+a:visited {
+	color:blue;
+}
+a:hover {
+	color: orange;
+	/* font-size:22px; */
+}
+
+a:active {
+	color:green;
+}
+
+/* changlong.html start */
+
+.orangecolor {
+	color:orange;
+	margin:0px;
+}
+
+.pricetable .delprice {
+	text-decoration:line-through;
+	color:#666666;
+}
+
+h2.delprice {
+	color:#888888;
+}
+
+.center {
+	text-align:center;
+}
+
+.f60 {
+	color:#f60;
+}
+
+.pricenum {
+	font-size:22px;
+}
+
+.center.f60.pricenum {
+	font-family:"Microsoft Yahei";
+}
+
+#pricelabel {
+	color:red;
+	/*position:relative;
+	bottom:2em;
+	right:-3em;
+	z-index:-1; */
+}
+
+#minprice {
+	font-size:26px;
+}
+
+#featured p {
+	color:green;
+}
+
+[title] {
+	color:red;
+}
+
+.lg-header {
+	background-color:#ffeeee;
+}
+
+body {
+	margin:0;
+}
+
+.s1 {
+	color:red;
+	font-size:22px;
+}
+
+.s2 {
+	color:green;
+	font-size:15px;
+}
+
+.s3 {
+	color:blue;
+	font-size:32px;
+}
+
+.box1,.box2,.box3 {
+	width:300px;
+	height:320px;
+	margin:15px;
+	border:1px solid #ccc;
+	overflow:hidden;
+}
+
+.box1 {
+	border:1px solid red;
+	position:relative;
+	
+}
+
+.box2 {
+	border:1px solid green;
+	position:fixed;
+	bottom:25px;
+	right:20px;
+	
+	
+}
+
+.box3 {
+	border:1px solid blue;
+}
+
+.bigbox {
+	width:350px;
+	height:1000px;
+	background-color:#eeffcc;
+
+}
+
+.bigbigbox {
+	width:380px;
+	height:1000px;
+	background-color:#ccffcc;
+	padding:15px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* changlong.html end */

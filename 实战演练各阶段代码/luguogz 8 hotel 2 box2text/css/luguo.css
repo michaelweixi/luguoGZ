@@ -1,0 +1,208 @@
+@CHARSET "UTF-8";
+
+/***** 头部 开始 ****/
+.header .logo{
+	width:120px;
+	height:120px;
+	padding:3px 0;
+}
+
+.header .header-main{
+	width:1080px;
+	height:126px;
+}
+
+.header-main li{
+	float:left;
+	margin-left:30px;
+}
+
+.header-main .club {
+	color:red;
+}
+
+.header-main .searchbox {
+	margin-left:70px;
+}
+/***** 头部 结束 ****/
+
+
+/***** 导航栏 开始 ****/
+.navbar {
+	background-color:#26ba4b;
+	height:37px;
+}
+
+.navbar li{float:left;}
+
+.navbar ul {
+	padding-top:7px;
+}
+
+.navbar a:link {
+	display:block;
+	width:105px;
+	height:30px;
+   color: #FFFFFF;
+   font-size:16px;
+   text-decoration: none;
+   text-align:center;
+}
+.navbar a:visited {
+    color: #FFFFFF;
+    text-decoration: none;  
+}
+.navbar a:hover{
+	border-bottom:solid 6px orange;
+}
+.navbar a:active{
+	color: #FFFF00;
+}
+
+/***** 导航栏 结束 ****/
+
+
+/***** 内容区 开始 ****/
+.mainpage-left {
+	width:880px;
+	padding-right:5px;
+	margin-right:10px;
+	border-right:1px solid #999;
+}
+
+
+/*当季精选*/
+.the_season {
+	border:1px solid #bbb;
+	overflow:hidden;
+}
+
+.pro_smallpic {
+	width:193px;
+	margin:4px 0px 0 4px;
+}
+
+.pro_sp_text{
+	font-size:16px;
+	color:#f60;
+	text-align:center;
+	margin-bottom:20px;
+}
+
+
+.pro_bigpic {
+	width:480px;
+	height:350px;
+	background: url('../images/linglanyinxiang.png') no-repeat;
+	background-size: 100% 100%;
+}
+
+.transbox{
+	height: 80px;
+	margin-top:270px;
+	background-color: #fff;
+	opacity:0.75;
+}
+
+.pro_title {
+	font-size:20px;
+	color:#f60;
+	font-weight:600;
+	margin-left:8px;
+}
+
+.pro_text {
+	font-size:36px;
+	color:red;
+	margin:8px 0 0 8px;
+}
+
+
+/*酒店预订-标题*/
+
+.hotel_booking_title {
+    height: 35px;
+    border-bottom: 1px solid #acaea4;
+    position: relative;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #222;
+}
+
+.hotel_booking_title h2{
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.hotel_booking_title .more {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 13px;
+    line-height: 32px;
+    color: #999;
+}
+
+/*酒店列表*/
+
+.hotel {
+    border: 1px solid #e6e6e6;
+    color: #666;
+}
+
+/*酒店logo*/
+.hotel-logo {
+	display:block;
+    width: 245px;
+    height: 163px;
+    margin: 0 7px 0 0;
+}
+
+/*酒店文字信息*/
+.hotel-info {
+    position: relative;
+    width: 440px;
+}
+
+.hotel-info .hotelname{
+    font-size: 24px;
+    line-height: 42px;
+}
+
+.hotel-info .level {
+    display: inline-block;
+    color: #aaa;
+    margin-right: 7px;
+    font-size:13px;
+}
+
+.hotel-info .route {
+    margin: 8px 0;
+}
+
+
+/*酒店价格信息*/
+.hotel-brief {
+    width: 160px;
+    text-align: center;
+    border-left:1px solid #eee;
+    margin-top: 15px;
+}
+
+
+
+
+/***** 内容区 右边区块 ****/
+.mainpage-right {
+	width:300px;
+}
+
+/***** 内容区 结束 ****/
+
+
+/***** 底部 开始 ****/
+.footer {
+	background-color:#363636;
+	padding:10px;
+}
+/***** 底部 结束 ****/
