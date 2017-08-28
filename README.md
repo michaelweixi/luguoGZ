@@ -3,7 +3,7 @@
 
 luguoGZ是用来配合《魏曦教你学HTML+CSS网页设计》视频教程进行讲解的例子, 视频教程详见http://www.weixistyle.com.
 
-压缩包中共有25个Chapter开头的文件夹和1个名为是在演练的文件夹：
+压缩包中共有25个Chapter开头的文件夹和1个名为“实战演练”的文件夹：
 
 Chapter开头的文件夹
 ------
